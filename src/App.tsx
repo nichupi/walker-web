@@ -1,8 +1,16 @@
+import TopBar from "./components/TopBar"
+import SideBar from "./components/SideBar"
+
 function App() {
 
   return (
     <>
-      <p className="text-red-800">penis</p>
+      <div className="flex flex-col h-screen">
+        <TopBar />
+        <div className="flex flex-1 min-h-0">
+          <SideBar />
+        </div>
+      </div>
     </>
   )
 }
