@@ -2,7 +2,7 @@ import Button from "./Button"
 
 function SideBar() {
     return <>
-        <div className="bg-taupe-900 w-20 flex flex-col items-center">
+        <div className="bg-taupe-900 w-20 flex flex-col items-center static">
             <div className="flex-1">
                 <Button buttonStyles="size-14 mt-3" />
                 <Button buttonStyles="size-14 mt-3" />

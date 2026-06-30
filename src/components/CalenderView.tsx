@@ -22,12 +22,12 @@ function TaskBlock({ title, time, duration, notes, bgColor, borderColor, height 
 
 function CalenderView() {
     return (
-      <div className='bg-zinc-950'>
+      <div className='bg-zinc-950 flex-1'>
         <div>
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>6:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -35,7 +35,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>7:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -43,7 +43,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>8:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -60,7 +60,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>9:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -77,7 +77,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>10:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -86,7 +86,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>11:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -103,7 +103,7 @@ function CalenderView() {
 
         
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>12:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -120,7 +120,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>13:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -128,7 +128,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>14:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -146,7 +146,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>15:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -155,7 +155,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>16:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -164,7 +164,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>17:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -182,7 +182,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>18:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -191,7 +191,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>19:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -208,7 +208,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>20:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -225,7 +225,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>21:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -233,7 +233,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>22:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
@@ -250,7 +250,7 @@ function CalenderView() {
 
 
           <div className='h-32 relative'>
-            <div className='text-gray-500 text-xs flex items-center gap-x-4'>
+            <div className='text-gray-500 text-xs flex items-center gap-x-4 mx-4'>
               <p>23:00</p>
               <div className="flex-grow border-t border-1.5 border-gray-500"></div>
             </div>
