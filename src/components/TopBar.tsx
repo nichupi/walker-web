@@ -1,6 +1,6 @@
 function TopBar() {
     return <>
-        <div className="bg-taupe-800 h-14 flex justify-between text-white text-lg items-center px-10">
+        <div className="bg-taupe-800 h-14 w-screen flex justify-between text-white text-lg items-center px-10 ">
             <p>Walker</p>
             <div className="flex gap-3">
                 <p>{"<-"}</p>
